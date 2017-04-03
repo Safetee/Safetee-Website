@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <title>Safetee | Stop Sexual and Domestic Violence</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
@@ -19,36 +19,42 @@
 <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-toggleable-md navbar-dark bg-primary fixed-top">
+    <nav class="navbar navbar-toggleable-md navbar-dark bg-teal fixed-top">
         <div class="container">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapseEx2" aria-controls="collapseEx2" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="#">
-                <strong>SAFETEE</strong>
+                <img src="img/logo.png">
             </a>
             <div class="collapse navbar-collapse" id="collapseEx2">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Features</a>
+                        <a class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">About Us</a>
-                    </li>
-                     <li class="nav-item">
-                        <a class="nav-link">NGO Access</a>
+                        <a class="nav-link">Features</a>
                     </li>
                      <li class="nav-item">
                         <a class="nav-link">Blog</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link">Contact Us</a>
+                        <a class="nav-link">Contact</a>
                     </li>
-                    <li class="nav-item btn-group">
-                        
+                    <li class="nav-item social-top">
+                        <a href="https://facebook.com/getsafetee"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item social-top">
+                        <a href="https://twitter.com/getsafetee"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item social-top">
+                        <a href="https://instagram.com/getsafetee"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item btn-group ngo-access">
+                        <a class="nav-link btn btn-lg btn-success">NGO Access ></a>
                     </li>
                 </ul>
                
@@ -61,8 +67,31 @@
 <!--Mask-->
 <div class="view">
     <!--Intro content-->
-    <div class="full-bg-img flex-center">
-        
+    <div class="full-bg-img slidePadding">
+        <div class="row">
+          <div class="col-md-8 animated slideInUp">
+            <h1 class="slideTitle">Stop Sexual/Domestic Abuse!</h1>
+            <p class="slideText">
+              Safetee is a mobile app that seeks to end sexual and domestic abuse by providing
+              users with tools to keep themselves safe in dangerous situations, real-time evidence recording
+              and NGO counseling/prosecution support.
+            </p>
+            <p class="slideText">
+            To view <b>App Features</b>, click <a href="#features">here</a>.
+            </p>
+
+            <div class="indentPlayStore animated pulse infinite">
+              <a href="https://play.google.com/store/apps/details?id=com.safeteeapp.safetee">
+                <img src="img/playstore.png" width="200" />
+              </a>
+              
+            </div>
+
+          </div>
+          <div class="col-md-4 animated fadeInUp">
+            <img src="img/home.png" width="300" height="473">
+          </div>          
+        </div>
     </div>
     <!--/Intro content-->
 </div>
@@ -71,14 +100,14 @@
  <div class="container">
 
         <div class="divider-new">
-            <h2 class="h2-responsive wow bounceIn">About us</h2>
+            <h2 class="h2-responsive wow bounceIn">About Safetee</h2>
         </div>
 
         <!--Section: About-->
         <section id="about" class="text-center wow bounceIn" data-wow-delay="0.2s">
 
-            <p><h3>Safetee is an android app that keeps you safe and protects you from violence.</h3></p>
-            <p><h3>Safetee helps you quickly contact your close circle incase of emergencies with your exact location, helps you record evidence of sexual/domestic violence and provides you resources to keep you safe at all times.</h3></p>
+            <p><h3>safetee is an android app that keeps you safe and protects you from violence.</h3></p>
+            <p><h3>safetee helps you quickly contact your close circle incase of emergencies with your exact location, helps you record evidence of sexual/domestic violence and provides you resources to keep you safe at all times.</h3></p>
 
         </section>
         <!--Section: About-->
@@ -253,6 +282,11 @@
    
     <!-- /Start your project here-->
 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo|Righteous" rel="stylesheet">
+
     <!-- SCRIPTS -->
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
@@ -262,6 +296,14 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+        setTimeout(function() {
+          $('.indentPlayStore').removeClass('infinite');
+        }, 3000);
+      });
+    </script>
 </body>
 
 </html>

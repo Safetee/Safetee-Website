@@ -6,6 +6,45 @@ body,
     height: 100%;
 }
 
+p {
+  font-family: 'Exo',sans-serif;
+}
+
+.social-top{
+  margin:10px;
+  font-size: 18px;
+}
+
+.ngo-access{
+  margin-left:18px;
+}
+.nav-item {
+  text-transform: uppercase;
+  font-family: 'Righteous';
+  font-size: 18px;
+}
+
+.slidePadding {
+  padding-top: 120px;
+  padding-left: 100px;
+}
+
+.slideTitle {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Righteous',sans-serif;
+}
+.slideText {
+  color: #ddd;
+  padding-top: 30px;
+  width: 400px;
+  font-size: 16px;
+  text-align: justify;
+}
+.indentPlayStore{
+  margin-left: -10px;
+}
+
 .view {
     background: url("https://mdbootstrap.com/images/regular/city/img%20(17).jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -14,15 +53,19 @@ body,
     background-size: cover;
 }
 
- header navbar li {
-	float: right;
-}
+/* header navbar li {
+  float: right;
+} */
 ul.navbar {
 	text-align: right;
 	float: right;
 }
 
+.bg-teal {
+  background: #008080;
+}
+
 .full-bg-img {
-	background: url('../img/lady1.jpg');
+	background: url('../img/slide1.png');
 	background-size: cover;
 }
