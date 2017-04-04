@@ -30,31 +30,31 @@
             <div class="collapse navbar-collapse" id="collapseEx2">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#" data-target="home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">About</a>
+                        <a class="nav-link" data-target="about" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Features</a>
+                        <a class="nav-link" data-target="features" href="#features">Features</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link">Blog</a>
+                        <a class="nav-link" data-target="team" href="#team">Team</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link">Contact</a>
+                        <a class="nav-link" data-target="contact" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item social-top">
-                        <a href="https://facebook.com/getsafetee"><i class="fa fa-facebook"></i></a>
+                        <a href="https://facebook.com/getsafetee" target="_blank"><i class="fa fa-facebook"></i></a>
                     </li>
                     <li class="nav-item social-top">
-                        <a href="https://twitter.com/getsafetee"><i class="fa fa-twitter"></i></a>
+                        <a href="https://twitter.com/getsafetee" target="_blank"><i class="fa fa-twitter"></i></a>
                     </li>
                     <li class="nav-item social-top">
-                        <a href="https://instagram.com/getsafetee"><i class="fa fa-instagram"></i></a>
+                        <a href="https://instagram.com/getsafetee" target="_blank"><i class="fa fa-instagram"></i></a>
                     </li>
                     <li class="nav-item btn-group ngo-access">
-                        <a class="nav-link btn btn-lg btn-success">NGO Access ></a>
+                        <a href="http://getsafetee.com/agency/dashboard" class="nav-link btn btn-lg btn-success">NGO Access ></a>
                     </li>
                 </ul>
                
@@ -69,7 +69,7 @@
     <!--Intro content-->
     <div class="full-bg-img slidePadding">
         <div class="row">
-          <div class="col-md-8 animated slideInUp">
+          <div class="col-md-8 slideBody animated slideInUp">
             <h1 class="slideTitle">Stop Sexual/Domestic Abuse!</h1>
             <p class="slideText">
               Safetee is a mobile app that seeks to end sexual and domestic abuse by providing
@@ -88,7 +88,7 @@
             </div>
 
           </div>
-          <div class="col-md-4 animated fadeInUp">
+          <div class="col-md-4 mockup animated fadeInUp">
             <img src="img/home.png" width="300" height="473">
           </div>          
         </div>
@@ -98,37 +98,36 @@
 <!--/.Mask-->
 
  <div class="container">
-
-        <div class="divider-new">
-            <h2 class="h2-responsive wow bounceIn">About Safetee</h2>
-        </div>
-
-        <!--Section: About-->
-        <section id="about" class="text-center wow bounceIn" data-wow-delay="0.2s">
-
-            <p><h3>safetee is an android app that keeps you safe and protects you from violence.</h3></p>
-            <p><h3>safetee helps you quickly contact your close circle incase of emergencies with your exact location, helps you record evidence of sexual/domestic violence and provides you resources to keep you safe at all times.</h3></p>
-
+        <section id="about" class="">
+          <h2 class="sectionTitle">About Safetee</h2>
+          
+          <div class="row">
+            <div class="col-md-7" align="justify">
+              <p>Safetee is a mobile application that keeps you safe and protects you from violence.</p>
+              <p>Safetee helps you quickly contact your close circle incase of emergencies with your exact location, helps you record evidence of sexual/domestic violence and provides you resources to keep you safe at all times.</p>
+              <p>In the event sexual/domestic violence occurs, Safetee connects the victim with trusted and reliable NGOs who specialize in treating sexual/domestic violence cases; so the victim can get counselling, rehabilitation and justice.</p>
+              <p>Safetee is a product of the CHIMEHACK hackathon organised by Co Creation Hub, we won the hackathon and set off on this amazing journey to stop sexual/domestic violence. Interestingly, our team has a majority of males who are passionate about solving this problem of sexual/domestic violence because we believe it's an epidemic that affects us all and must be ended.</p>
+            </div>
+            <div class="col-md-5">
+              <iframe width="450" height="330" src="https://www.youtube.com/embed/Byf0f8Lrp-E" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
         </section>
         <!--Section: About-->
-
-        <div class="divider-new">
-            <h2 class="h2-responsive wow fadeInDown">Features</h2>
-        </div>
-
-        <!--Section: Best features-->
-        <section id="best-features">
+        
+        <section id="features">
+          <h2 class="sectionTitle">Features</h2>
 
             <div class="row">
 
                 <!--First columnn-->
                 <div class="col-md-3">
                     <!--Card-->
-                    <div class="card wow fadeInUp">
+                    <div class="card">
 
                         <!--Card image-->
                         <div class="view overlay hm-white-slight">
-                            <img src="https://mdbootstrap.com/images/regular/city/img%20(2).jpg" class="img-fluid" alt="">
+                            <img src="img/friends.png" class="img-fluid" width="267" height="150" alt="Circle of Friends">
                             <a>
                                 <div class="mask"></div>
                             </a>
@@ -138,10 +137,10 @@
                         <!--Card content-->
                         <div class="card-block text-center">
                             <!--Title-->
-                            <h4 class="card-title">Card title</h4>
+                            <h4 class="card-title teal-color">Circle of Friends</h4>
                             <hr>
                             <!--Text-->
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
+                            <p class="card-text" align="justify">Add your most trusted friends and family to your cirle so you can notify them easily with your location, to come get you in times of danger. You can add as many friends as you want.</p>
                         </div>
                         <!--/.Card content-->
 
@@ -153,11 +152,11 @@
                 <!--Second columnn-->
                 <div class="col-md-3">
                     <!--Card-->
-                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="card">
 
                         <!--Card image-->
                         <div class="view overlay hm-white-slight">
-                            <img src="https://mdbootstrap.com/images/regular/city/img%20(3).jpg" class="img-fluid" alt="">
+                            <img src="img/help.png" class="img-fluid" width="267" height="150" alt="">
                             <a>
                                 <div class="mask"></div>
                             </a>
@@ -167,10 +166,10 @@
                         <!--Card content-->
                         <div class="card-block text-center">
                             <!--Title-->
-                            <h4 class="card-title">Card title</h4>
+                            <h4 class="card-title teal-color">Get Help</h4>
                             <hr>
                             <!--Text-->
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
+                            <p class="card-text" align="justify">Safetee offers a one touch panic button that sends SMS Messages to your Circle of Friends, with your location, in times of danger. You can also specify the type of help required.</p>
                         </div>
                         <!--/.Card content-->
 
@@ -182,11 +181,11 @@
                 <!--Third columnn-->
                 <div class="col-md-3">
                     <!--Card-->
-                    <div class="card wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="card">
 
                         <!--Card image-->
                         <div class="view overlay hm-white-slight">
-                            <img src="https://mdbootstrap.com/images/regular/city/img%20(4).jpg" class="img-fluid" alt="">
+                            <img src="img/evidence.png" class="img-fluid" width="267" height="150" alt="">
                             <a>
                                 <div class="mask"></div>
                             </a>
@@ -196,10 +195,10 @@
                         <!--Card content-->
                         <div class="card-block text-center">
                             <!--Title-->
-                            <h4 class="card-title">Card title</h4>
+                            <h4 class="card-title teal-color">Evidence Gathering</h4>
                             <hr>
                             <!--Text-->
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
+                            <p class="card-text" align="justify">Safetee provides encrypted evidence gathering tools for real-time evidence gathering using audio recording and third party reporting using media files. Evidence can be used to convict offenders.</p>
                         </div>
                         <!--/.Card content-->
 
@@ -211,11 +210,11 @@
                 <!--Fourth columnn-->
                 <div class="col-md-3">
                     <!--Card-->
-                    <div class="card wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="card">
 
                         <!--Card image-->
                         <div class="view overlay hm-white-slight">
-                            <img src="https://mdbootstrap.com/images/regular/city/img%20(8).jpg" class="img-fluid" alt="">
+                            <img src="img/evidence2.png" class="img-fluid" width="267" height="150" alt="">
                             <a>
                                 <div class="mask"></div>
                             </a>
@@ -225,10 +224,10 @@
                         <!--Card content-->
                         <div class="card-block text-center">
                             <!--Title-->
-                            <h4 class="card-title">Card title</h4>
+                            <h4 class="card-title teal-color">Trusted NGOs</h4>
                             <hr>
                             <!--Text-->
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>
+                            <p class="card-text" align="justify">Don't keep quiet! Safetee partners with government registered NGOs who can help you in Sexual/Domestic Violence cases. NGOs provide support to victims and help to prosecute offenders.</p>
                         </div>
                         <!--/.Card content-->
 
@@ -239,34 +238,228 @@
             </div>
 
         </section>
-        <!--/Section: Best features-->
+        
+        <!--/Section:  team-->
+        <section id="team">
+          <h2 class="sectionTitle">Team</h2>
 
-        <div class="divider-new">
-            <h2 class="h2-responsive wow fadeInUp">Contact us</h2>
-        </div>
+            <div class="row">
+
+                <!--First columnn-->
+                <div class="col-md-4" align="center">
+                    <!--Card-->
+                    <div class="">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAQpAAAAJDAwZWRlM2QzLTkzOTktNDc0Ni1iZGYyLTU3YWQzODk0NGRiMg.png" class="img-fluid" alt="Safetee Team">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div> 
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-center">
+                            <!--Title-->
+                            <a href="https://www.linkedin.com/in/abimbola-adeniji-79428474/">  
+                              <h4 class="card-title teal-color">Abimbola Adeniji</h4>
+                            </a>
+                            <!--Text-->
+                            <p class="card-text">Domain Expert</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--First columnn-->
+
+                <!--Second columnn-->
+                <div class="col-md-4">
+                    <!--Card-->
+                    <div class="" align="center">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/095/1fd/2476c66.png" class="img-fluid" alt="Safetee Team">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-center">
+                            <!--Title-->
+                            <a href="https://www.linkedin.com/in/age2ho/">  
+                              <h4 class="card-title teal-color">Ayomide Daniels</h4>
+                            </a>
+                            <!--Text-->
+                            <p class="card-text">Software Engineer (Back-end)</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--Second columnn-->
+
+                <!--Third columnn-->
+                <div class="col-md-4" align="center">
+                    <!--Card-->
+                    <div class="">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAueAAAAJDA3OWRjYmVjLWYxZWUtNDExMC05OTA3LTgwNWRjMzBkYTZmMw.jpg" class="img-fluid" alt="Safetee Team">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-center">
+                            <!--Title-->
+                          <a href="https://www.linkedin.com/in/ilocalistus/">  
+                            <h4 class="card-title teal-color">Ilo Calistus</h4>
+                          </a>
+                            <!--Text-->
+                            <p class="card-text">Software Engineer (Mobile)</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--Third columnn-->
+
+                <!--4th columnn-->
+                <div class="col-md-4" align="center">
+                    <!--Card-->
+                    <div class="">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAN3AAAAJDk1ZTJiM2E1LThkZjYtNGQ4NC05OTEyLTg4MWRiZjJjNGQ5Yg.jpg" class="img-fluid" alt="Circle of Friends">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-center">
+                            <!--Title-->
+                            <a href="https://www.linkedin.com/in/abdulquadri-mumuney-84ab8a44/">  
+                              <h4 class="card-title teal-color">Abdulquadri Mumuney</h4>
+                            </a>
+                           
+                            <!--Text-->
+                            <p class="card-text">Software Engineer (Mobile)</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--4th columnn-->
+
+                <!--5th columnn-->
+                <div class="col-md-4" align="center">
+                    <!--Card-->
+                    <div class="">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAApuAAAAJGU4YmUwZTViLTIwZmMtNDA3NC1hMzcwLTNhZTRhYWY2MzYyZg.jpg" class="img-fluid" alt="Safetee Team">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-center">
+                            <!--Title-->
+                            <a href="https://www.linkedin.com/in/temidayoonifade/">  
+                              <h4 class="card-title teal-color">Temidayo Onifade</h4>
+                            </a>
+                           
+                            <!--Text-->
+                            <p class="card-text">Software Engineer (Front-end)</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--5th columnn-->
+
+                <!--6th columnn-->
+                <div class="col-md-4" align="center">
+                    <!--Card-->
+                    <div class="">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAjyAAAAJGI2MGEyNzAxLTE1YmYtNDQzNy05OTgwLWEzNWQyMzVlMjIwNg.jpg" class="img-fluid" alt="Safetee Team">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-center">
+                            <!--Title-->
+                            <a href="https://www.linkedin.com/in/segebee/">  
+                              <h4 class="card-title teal-color">Abisagbo Oluwasegun</h4>
+                            </a>
+                            <!--Text-->
+                            <p class="card-text">Design</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--6th columnn-->
+
+            </div>
+
+        </section>
+        <!--/Section:Team-->
 
         <!--Section: Contact-->
         <section id="contact">
+
+          <h2 class="sectionTitle">Contact</h2>
+
+        
             <div class="row">
                 <!--First column-->
                 <div class="col-md-8">
-                    <div id="map-container" class="z-depth-1 wow fadeInUp" style="height: 300px"></div>
+                    <div id="map-container" class="z-depth-1" style="height: 300px">
+                      <img class="img-responsive" src="https://maps.googleapis.com/maps/api/staticmap?center=6.5043239,3.3778795&zoom=16&size=700x300&key=AIzaSyDw-fc5G_7JjZuROJXPCBqhP9tHDDK7qDc" width="800" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
                 </div>
                 <!--/First column-->
 
                 <!--Second column-->
                 <div class="col-md-4">
                     <ul class="text-center">
-                        <li class="wow fadeInUp" data-wow-delay="0.2s"><i class="fa fa-map-marker"></i>
-                            <p>Lagos, Nigeria</p>
+                        <li class=""><i class="fa fa-map-marker"></i>
+                            <p>Co Creation Hub, Lagos, Nigeria</p>
                         </li>
 
-                        <li class="wow fadeInUp" data-wow-delay="0.3s"><i class="fa fa-phone"></i>
-                            <p>+ 01 234 567 89</p>
+                        <li class=""><i class="fa fa-phone"></i>
+                            <p>(+234) 812 174 7250</p>
                         </li>
 
-                        <li class="wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-envelope"></i>
-                            <p>contact@getsafetee.com</p>
+                        <li class=""><i class="fa fa-envelope"></i>
+                            <p>getsafetee@gmail.com</p>
                         </li>
                     </ul>
                 </div>
@@ -274,6 +467,45 @@
             </div>
         </section>
         <!--Section: Contact-->
+
+        <!--Section: Contact-->
+        <section id="press">
+
+          <h2 class="sectionTitle">Partners/Press</h2>
+        
+            <div class="row partners">
+                <!--First column-->
+                <div class="col-md-6 logos">
+                  <a target="_blank" href="http://www.cchubnigeria.com">
+                    <img src="img/logos/cchub.png">
+                  </a>
+                  <a target="_blank" href="http://www.stopscan.org">
+                    <img src="img/logos/stopscann.jpg">
+                  </a>
+                </div>
+                <div class="col-md-6 logos">
+                  <a target="_blank" href="http://www.vanguardngr.com/2016/11/safetee-new-app-combating-violence-women/">
+                    <img src="http://d19lga30codh7.cloudfront.net/wp-content/uploads/2013/12/vanguardlogo.png" height="43">
+                  </a>
+                </div>
+                <!--/Second column-->
+            </div>
+        </section>
+        <!--Section: Contact-->
+
+        <section>
+          <div class="row copyright">
+            <div class="col-md-8">
+              <p>This website belongs to Safetee. All Rights Reserved. &copy; 2017</p>
+            </div>
+            <div class="ml-auto col-md-4 social-bottom">
+              <a href="https://facebook.com/getsafetee" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/getsafetee" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://instagram.com/getsafetee" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+            
+          </div>
+        </section>
 
     </div>
 
@@ -302,7 +534,21 @@
         setTimeout(function() {
           $('.indentPlayStore').removeClass('infinite');
         }, 3000);
+
+        //animate section title on menu click
+        $('.nav-link').click(function(event) {
+          var target = $(this).data('target');
+          //console.log(target)
+          $('#'+target+' .sectionTitle').addClass('animated slideInRight');
+          setTimeout(function() {
+            $('#'+target+' .sectionTitle').removeClass('animated slideInRight');
+          }, 3000);
+          
+        });
+         
       });
+
+      
     </script>
 </body>
 
